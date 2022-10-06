@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+main{
+    background-color: rgb(106, 198, 213);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.ticket_card{
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 1rem;
+    width: 60%;
+    padding: 2rem;
+    text-align: center;
+}
+h1 {
+    color: dodgerblue;
+    margin-bottom: 1.5rem;
+    font-size: 3rem;
+}
+h2 {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+#my_paragraph {
+    margin-bottom: 1rem;
+    text-decoration: line-through;
+    font-size: 1.5rem;
+}
+#my_secretparagraph {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.mySpan {
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+}
+button {
+    border: none;
+    padding: 0.6rem 2rem;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 1.5rem;
+    transition: all 0.5s;
+}
+button:hover {
+    box-shadow: 2px 1px 5px lightslategray;
+    opacity: 0.9;
+    cursor: pointer;
+}
+@media screen and (max-width:575px){
+    .ticket_card {
+        width: 70%;
+    }
+}
